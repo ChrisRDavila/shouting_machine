@@ -1,0 +1,8 @@
+.hidden {
+  display: none;
+}
+body {
+  background-color: antiquewhite;
+  color: blue;
+  margin: 30px;
+}

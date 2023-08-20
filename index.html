@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>A shouting machine</title>
+</head>
+<body>
+  <h1>Write a sentence to be shouted</h1>
+  <form>
+    <label for="sentenceInput">Your sentence</label>
+    <input id="sentenceInput" type="text" name="sentenceInput">
+    <button type="submit">Shout</button>
+  </form>
+  <br />
+  <button type="button" class="hidden" id="reset">Reset</button>  
+
+  <div id="shout" class="hidden">
+    <h1>Your shout</h1>
+    <p>
+      <span id="sentenceOutput">_________</span>.
+    </p>
+  </div>
+</body>
+</html>
